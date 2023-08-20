@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>한다혜 포트폴리오 | illust</title>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="../js/common.js"></script>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/illust.css">
+
+</head>
+<body>
+    <div class="header"></div>
+    
+    <div class="wrap">
+        <div class="ill">
+            <h1>일러스트</h1>
+            <p>부산시 공공기관에서 의뢰받아 스케치부터 완성까지 직접 작업한 일러스트입니다.<span>/</span>참여도 100%</p>
+
+            <ul class="menu">
+                <li data-id="all" class="active"><a href="#">모두 보기</a></li>
+                <li data-id="bs"><a href="#">부산시 소식지 표지</a></li>
+                <li data-id="bk"><a href="#">부경양돈 소식지 표지</a></li>
+                <li data-id="gu"><a href="#">구청</a></li>
+                <li data-id="tour"><a href="#">부산관광공사</a></li>
+            </ul>
+
+            <div class="contents">
+
+                <div class="content">
+                    <div class="item">
+                        <li data-item="bs"><img src="../images/2138150934.jpg" data-img="../images/부산이야기00.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum01.jpg" data-img="../images/il-01.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum02.jpg" data-img="../images/il-02.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum03.jpg" data-img="../images/il-03.jpg"></li>
+                        <li data-item="bs"><img src="../images/2138150936.jpg" data-img="../images/부산이야기.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum03-1.jpg" data-img="../images/il-04.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum05.jpg" data-img="../images/il-06.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum04.jpg" data-img="../images/il-05.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum06.jpg" data-img="../images/1517383540332.jpg"></li>
+                        <li data-item="bs"><img src="../images/il-thum07.jpg" data-img="../images/il-08.jpg"></li>
+                        <li data-item="bk"><img src="../images/il-thum08.jpg" data-img="../images/il-10.jpg"></li>
+                        <li data-item="bk"><img src="../images/il-thum10.jpg" data-img="../images/il-12.jpg"></li>
+                        <li data-item="bk"><img src="../images/il-thum09.jpg" data-img="../images/il-11.jpg"></li>
+                        <li data-item="bk"><img src="../images/1508031219009 2.jpg" data-img="../images/부경양돈.jpg"></li>
+                        <li data-item="gu"><img src="../images/il-14.jpg" data-img="../images/il-14.jpg"></li>
+                        <li data-item="gu"><img src="../images/il-13.jpg" data-img="../images/il-13.jpg"></li>
+                        <li data-item="gu"><img src="../images/Group 343.jpg" data-img="../images/동래구청.jpg"></li>
+                        <li data-item="gu"><img src="../images/1536813415713 2.jpg" data-img="../images/남구청.jpg"></li>
+                        <li data-item="tour"><img src="../images/il-thum13.jpg" data-img="../images/il-15.jpg"></li>
+                        <li data-item="tour"><img src="../images/2138150935.jpg" data-img="../images/부산관광공사.jpg"></li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <a href="#x" class="go_top">TOP</a>
+
+    <div class="dimm">
+        <img src="" alt="">
+    </div>
+
+
+    <script>
+        $('.item li').click(function () {
+            let dataImg = $(this).find('img').attr('data-img')
+            $('.dimm').addClass('show').find('img').attr('src', dataImg)
+
+            $('.dimm').click(function () {
+                $(this).removeClass('show')
+            })
+        })
+    </script>
+</body>
+</body>
+</html>

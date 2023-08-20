@@ -1,0 +1,103 @@
+
+.wrap {
+    background-color: #eee;
+    padding-bottom: 80px;
+}
+
+.web {
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.web h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.web p {
+    padding-top: 10px;
+    color: #777;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.web p span {
+    margin: 0 20px;
+}
+
+.web .menu {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 50px 0;
+}
+
+.web .menu li {
+    padding: 5px 18px;
+    background-color: #fff;
+    border-radius: 28px;
+    cursor: pointer;
+}
+
+.web .menu li a {
+    font-weight: 600;
+    color: #555;
+    font-size: 16px;
+}
+
+.menu li.active{
+    background-color: #555;
+}
+
+.menu li.active a {
+    color: #fff;
+    font-weight: 500;
+}
+
+.tab_content .text {
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.web .publishing {
+    padding-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.web .publishing img {
+    width: 400px;
+    height: 275px;
+    object-fit: cover;
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.ui {
+    height: 100vh;
+}
+
+.banner {
+    /* margin: auto; */
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.banner a {
+    /* width: 500px; */
+    /* display: inline-block; */
+    padding: 45px 0;
+}
+
+.banner img {
+    object-fit: cover;
+    width: 540px;
+    display: inline-block;
+    border: 1px solid #999;
+    border-radius: 3px;
+}

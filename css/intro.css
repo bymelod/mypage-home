@@ -1,0 +1,136 @@
+.wrap {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.underline {
+    content: '';
+    width: 90px;
+    height: 6px;
+    background-color: #8CB4BE;
+    margin-top: 14px;
+    margin: 6px auto;
+}
+
+.intro {
+    height: calc(100vh - 80px);
+}
+
+.intro .contents {
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+    padding: 70px 0;
+}
+
+.me {
+    text-align: center;
+}
+
+.me .photo img {
+    width: 288px;
+    height: 288px;
+    object-fit: cover;
+}
+
+.me .text {
+    padding-top: 28px;
+}
+
+.me .text .part {
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
+}
+
+.me .text .part span {
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.me .text .name {
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.me .text .birth {
+    font-weight: 300;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2,3fr);
+    width: 100%;
+}
+
+.info .item {
+    padding: 20px 0;
+}
+
+.info .title {
+    position: relative;
+}
+
+.info .title span {
+    position: absolute;
+    top: 8px;
+    left: -12px;
+    width: 35px;
+    height: 35px;
+    background-color: #eee;
+    border-radius: 100%;
+    z-index: -1;
+}
+
+.info h3 {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.info li {
+    display: flex;
+    gap: 25px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 3px 0;
+}
+
+.info .contact {
+    padding-top: 80px;
+}
+
+/* message */
+.message {
+    background-color: #eee;
+    margin: 0 auto;
+    height: 100vh;
+}
+
+.message h2 {
+    padding-top: 140px;
+}
+
+.message .underline {
+    width: 120px;
+}
+
+.message p {
+    padding: 100px 0;
+    margin: 90px auto;
+    width: 980px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+}

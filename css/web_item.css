@@ -1,0 +1,107 @@
+.wrap {
+    background-color: #eee;
+    padding-bottom: 130px;
+}
+
+.web_sub {
+    margin: 0 auto;
+    width: 1320px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.web_sub .title {
+    margin: 0 auto;
+    justify-content: center;
+    padding-bottom: 42px;
+    align-items: center;
+    position: relative;
+}
+
+.web_sub .title h2 {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.web_sub .title .btn {
+    position: absolute;
+    top: 0;
+    right: 260px;
+    background-color: #333;
+    border: 1px solid #fff;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.web_sub .title .btn span {
+    padding-left: 16px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.web_sub .link {
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    color: #333;
+    font-weight: 500;
+}
+
+.web_sub .link a {
+    width: 100px;
+    height: 35px;
+    line-height: 32px;
+    background-color: #fff;
+    border-radius: 28px;
+}
+    
+.web_sub .contents {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.web_sub .contents img {
+    width: 400px;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+
+.web_sub .contents .center img:nth-child(2) {
+    margin-top: 30px;
+}
+
+.comments {
+    margin-top: 80px;
+    padding: 30px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.comment {
+    padding: 30px 0;
+}
+
+.comment h4 {
+    font-size: 20px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.comment h4 i {
+ padding-right: 10px;
+}
+
+.textbox {
+    padding-top: 10px;
+}
+
+.comment p {
+    font-size: 16px;
+    color: #000;
+}
